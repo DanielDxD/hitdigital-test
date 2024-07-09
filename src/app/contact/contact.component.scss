@@ -1,0 +1,29 @@
+.m-row {
+  gap: 17px;
+  margin-bottom: 16px;
+}
+
+@media screen and (max-width: 700px) {
+  .m-row {
+    flex-wrap: wrap;
+  }
+}
+
+input {
+  height: 46px;
+}
+
+input,
+textarea {
+  width: 100%;
+  border: none;
+  padding-left: 20px;
+  border-radius: 5px;
+  outline: none;
+}
+
+textarea {
+  height: 200px;
+  padding-top: 14px;
+  margin-bottom: 22px;
+}

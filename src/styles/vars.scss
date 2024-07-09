@@ -1,0 +1,19 @@
+$background: #2D2D2D;
+$dark: #373735;
+$text: #FFFFFF;
+$divider: #707070;
+
+@mixin gradient() {
+  background: transparent linear-gradient(180deg, #EA916B 0%, #E05A4D 100%) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 10px 20px #00000029;
+}
+
+.title h1 {
+  font-size: 22px;
+  font-weight: normal;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,50 @@
+@import "./vars.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: $background;
+  color: $text;
+}
+
+section {
+  padding-bottom: 75px;
+}
+
+button.m-button {
+  @include gradient();
+  height: 40px;
+  width: 200px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 10px;
+  color: $text;
+  font-size: 12px;
+
+  &.dark {
+    background: $dark !important;
+    width: 160px;
+  }
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.home-box {
+  @include gradient();
+  width: 95%;
+  max-width: 780px;
+  padding: 40px;
+  border-radius: 10px;
+}

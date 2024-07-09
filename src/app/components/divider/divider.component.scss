@@ -1,0 +1,16 @@
+@import "../../../styles/vars.scss";
+
+.divider-container {
+  width: 122px;
+  height: 2px;
+  background-color: $divider;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .divider-item {
+    @include gradient();
+    height: 6px;
+    width: 20px;
+  }
+}
